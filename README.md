@@ -1,4 +1,4 @@
-DNS as a Service
+Empower Users with Certificate Management
 ================
 
 DNSaaS refers to the ability to update DNS records on demand though a web API. The standard implementation to programmable DNS services today is an authenticated JSON API with role based access control. Two popular open source offerings with such API built in are [PowerDNS](https://www.powerdns.com/) and [Atomia DNS](http://atomiadns.com/). For cloud providers running OpenStack, the official DNSaaS offering for OpenStack is [Designate](https://docs.openstack.org/designate/latest/), which provides this interface by default and interfaces with many popular DNS servers, such as BIND9 that do not, on their own, provide API access.
